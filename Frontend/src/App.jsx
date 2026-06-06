@@ -15,7 +15,7 @@ function App() {
           <div style={{ marginLeft: 'auto', display: 'flex', gap: '15px', alignItems: 'center' }}>
             {user ? (
               <>
-                <span>Logged in as: <strong>{user.email}</strong></span>
+                <span>Logged in as: <strong>{user.name}</strong></span>
                 <button onClick={logout}>Logout</button>
               </>
             ) : (
